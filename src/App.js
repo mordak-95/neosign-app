@@ -1,26 +1,32 @@
-import React from 'react';
-import logo from './logo.svg';
+import React , {Component} from 'react';
+import 'bootstrap/dist/css/bootstrap.css';
 import './App.css';
+import Portrait from './Components/Main/img/portrait.jpg'
+import Header from './Components/Header/Header';
+import Main from './Components/Main/Main';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React today!!
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+
+  state = {
+    mains: [
+      {img:Portrait, title:'I Am Mordak', description:'Graphic Artist - Web Designer - Illustrator', mainId:'main-1'}
+    ],
+  }
+
+  render(){
+    return (
+      <div >
+        
+          <Header></Header>
+          <Main img={this.state.mains[0].img} title={this.state.mains[0].title} description={this.state.mains[0].description}></Main>
+          <Main img={this.state.mains[0].img} title={this.state.mains[0].title} description={this.state.mains[0].description} mainId={this.state.mains[0].mainId}></Main>
+          <Main img={this.state.mains[0].img} title={this.state.mains[0].title} description={this.state.mains[0].description} mainId={'main-2'}></Main>
+          <Main img={this.state.mains[0].img} title={this.state.mains[0].title} description={this.state.mains[0].description} mainId={'main-3'}></Main>
+          <Main img={this.state.mains[0].img} title={this.state.mains[0].title} description={this.state.mains[0].description} mainId={'main-4'}></Main>
+        
+      </div>
+    );
+  }
 }
 
 export default App;
