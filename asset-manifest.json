@@ -1,23 +1,27 @@
 {
   "files": {
-    "main.css": "/neosign-app/static/css/main.5f361e03.chunk.css",
-    "main.js": "/neosign-app/static/js/main.a67cdb0e.chunk.js",
-    "main.js.map": "/neosign-app/static/js/main.a67cdb0e.chunk.js.map",
+    "main.css": "/neosign-app/static/css/main.8a65fdce.chunk.css",
+    "main.js": "/neosign-app/static/js/main.f8447dae.chunk.js",
+    "main.js.map": "/neosign-app/static/js/main.f8447dae.chunk.js.map",
     "runtime-main.js": "/neosign-app/static/js/runtime-main.c8fd5851.js",
     "runtime-main.js.map": "/neosign-app/static/js/runtime-main.c8fd5851.js.map",
-    "static/js/2.d555b863.chunk.js": "/neosign-app/static/js/2.d555b863.chunk.js",
-    "static/js/2.d555b863.chunk.js.map": "/neosign-app/static/js/2.d555b863.chunk.js.map",
+    "static/css/2.f3cffc9e.chunk.css": "/neosign-app/static/css/2.f3cffc9e.chunk.css",
+    "static/js/2.a979e93c.chunk.js": "/neosign-app/static/js/2.a979e93c.chunk.js",
+    "static/js/2.a979e93c.chunk.js.map": "/neosign-app/static/js/2.a979e93c.chunk.js.map",
     "index.html": "/neosign-app/index.html",
-    "precache-manifest.83c662459c2fdb243d6eac121df33062.js": "/neosign-app/precache-manifest.83c662459c2fdb243d6eac121df33062.js",
+    "precache-manifest.61df7987095826387f6521d9c9a40e60.js": "/neosign-app/precache-manifest.61df7987095826387f6521d9c9a40e60.js",
     "service-worker.js": "/neosign-app/service-worker.js",
-    "static/css/main.5f361e03.chunk.css.map": "/neosign-app/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.d555b863.chunk.js.LICENSE.txt": "/neosign-app/static/js/2.d555b863.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/neosign-app/static/media/logo.5d5d9eef.svg"
+    "static/css/2.f3cffc9e.chunk.css.map": "/neosign-app/static/css/2.f3cffc9e.chunk.css.map",
+    "static/css/main.8a65fdce.chunk.css.map": "/neosign-app/static/css/main.8a65fdce.chunk.css.map",
+    "static/js/2.a979e93c.chunk.js.LICENSE.txt": "/neosign-app/static/js/2.a979e93c.chunk.js.LICENSE.txt",
+    "static/media/Main.css": "/neosign-app/static/media/bg.d4a07ed2.jpg",
+    "static/media/portrait.jpg": "/neosign-app/static/media/portrait.570f6b1f.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.c8fd5851.js",
-    "static/js/2.d555b863.chunk.js",
-    "static/css/main.5f361e03.chunk.css",
-    "static/js/main.a67cdb0e.chunk.js"
+    "static/css/2.f3cffc9e.chunk.css",
+    "static/js/2.a979e93c.chunk.js",
+    "static/css/main.8a65fdce.chunk.css",
+    "static/js/main.f8447dae.chunk.js"
   ]
 }
