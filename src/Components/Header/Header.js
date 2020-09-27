@@ -7,7 +7,7 @@ export default () => {
     <div>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="nav-scroll">
             <div class="container">
-                <a href="#" class="navbar-brand">NEO-SIGN</a>
+                <a href="#main-0" class="navbar-brand">NEO-SIGN</a>
                 <button class="navbar-toggler outline-none" type="button" data-toggle="collapse" data-target="#navbar">
                     <span class="navbar-toggler-icon"></span>
                 </button>
