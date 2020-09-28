@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/neosign-app/precache-manifest.baaecc67f657a66d97ae064ff16dab89.js"
+  "/neosign-app/precache-manifest.597fef5f718cf3e2df6e6d8712cc8b32.js"
 );
 
 self.addEventListener('message', (event) => {
