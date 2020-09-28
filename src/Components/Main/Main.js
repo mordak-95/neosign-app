@@ -17,10 +17,8 @@ export default (props) => {
 
       
 
-      <div className="main" >
-        
-          <img className="cover" src={props.background}/>
-          
+      <div className="main" >        
+        <img className="cover" src={props.background}/>          
         <div  className=" container-fluid text-white" id={props.mainId}>
             <div className="cover-content d-flex flex-column justify-content-center align-items-center">                 
               <img src={props.img} alt="" class="rounded-circle"/>                  
