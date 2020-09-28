@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b8c876972cea06e57853ae9e9633b4c8",
+    "revision": "654d72eaa9f43a04f353e431f5857b30",
     "url": "/neosign-app/index.html"
   },
   {
