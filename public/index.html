@@ -73,8 +73,10 @@
 
     <script>
       $(window).load(function(){
-      // PAGE IS FULLY LOADED  
-      // FADE OUT YOUR OVERLAYING DIV
+      ovrl.style.opacity = 0;
+          setTimeout(function(){ 
+            ovrl.style.display = "none";
+          }, 1200);
       $('#overlay').fadeOut();
       });
     </script>
